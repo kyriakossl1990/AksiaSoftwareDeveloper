@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aksia Software Developer", "Aksia Software Developer\Aksia Software Developer.csproj", "{3C1F371D-9B17-4454-8309-EA134E4737C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AksiaSoftwareDeveloper.Core", "AksiaSoftwareDeveloper.Core\AksiaSoftwareDeveloper.Core.csproj", "{C7FBE4FA-B524-4986-9C70-D81A6736FB6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AksiaSoftwareDeveloper.Api", "AksiaSoftwareDeveloper.Api\AksiaSoftwareDeveloper.Api.csproj", "{A8624B18-B237-4EC1-9268-06845EDD5D1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AksiaSoftwareDeveloper.DataAccess", "AksiaSoftwareDeveloper.DataAccess\AksiaSoftwareDeveloper.DataAccess.csproj", "{4756024C-674B-4C59-98D8-E3844DBF5E2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AksiaSoftwareDeveloper.Common", "AksiaSoftwareDeveloper.Common\AksiaSoftwareDeveloper.Common.csproj", "{57EB9798-AAAF-4F11-90B4-27792E0DB41E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{34A9744E-26DB-47E9-A3EB-545AAEC5F4D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3C1F371D-9B17-4454-8309-EA134E4737C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C1F371D-9B17-4454-8309-EA134E4737C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C1F371D-9B17-4454-8309-EA134E4737C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C1F371D-9B17-4454-8309-EA134E4737C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FBE4FA-B524-4986-9C70-D81A6736FB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FBE4FA-B524-4986-9C70-D81A6736FB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FBE4FA-B524-4986-9C70-D81A6736FB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FBE4FA-B524-4986-9C70-D81A6736FB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8624B18-B237-4EC1-9268-06845EDD5D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8624B18-B237-4EC1-9268-06845EDD5D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8624B18-B237-4EC1-9268-06845EDD5D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8624B18-B237-4EC1-9268-06845EDD5D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4756024C-674B-4C59-98D8-E3844DBF5E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4756024C-674B-4C59-98D8-E3844DBF5E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4756024C-674B-4C59-98D8-E3844DBF5E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4756024C-674B-4C59-98D8-E3844DBF5E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EB9798-AAAF-4F11-90B4-27792E0DB41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EB9798-AAAF-4F11-90B4-27792E0DB41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EB9798-AAAF-4F11-90B4-27792E0DB41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EB9798-AAAF-4F11-90B4-27792E0DB41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A9744E-26DB-47E9-A3EB-545AAEC5F4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A9744E-26DB-47E9-A3EB-545AAEC5F4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A9744E-26DB-47E9-A3EB-545AAEC5F4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A9744E-26DB-47E9-A3EB-545AAEC5F4D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

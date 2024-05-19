@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AksiaSoftwareDeveloper.Common\AksiaSoftwareDeveloper.Common.csproj" />
+    <ProjectReference Include="..\AksiaSoftwareDeveloper.DataAccess\AksiaSoftwareDeveloper.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
